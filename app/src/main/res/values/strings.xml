@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RussianRoulette</string>
+    <string name="hello_world">Russian Roulette</string>
+    <string name="action_settings">Settings</string>
+    <string name="rndBtn">Press me i dare you!</string>
+    <string name="statusLimbo">Test your luck</string>
+    <string name="statusDead">BANG! You Died</string>
+    <string name="statusAlive">You survived this round, will live through the next?</string>
+    <string name="deathCounter">You have died 0 times</string>
+</resources>
