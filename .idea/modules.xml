@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RussianRoulette.iml" filepath="$PROJECT_DIR$/RussianRoulette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidRussianRoulette.iml" filepath="$PROJECT_DIR$/AndroidRussianRoulette.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

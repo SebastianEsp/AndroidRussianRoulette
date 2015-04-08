@@ -8,8 +8,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.Random;
-import java.lang.*;
-
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
@@ -39,7 +37,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        int rndNum = rnd.nextInt(5);
+        int rndNum = rnd.nextInt(6);
         debugInfo.setText("Random number is: " + rndNum);
         if (rndNum == 3)
         {

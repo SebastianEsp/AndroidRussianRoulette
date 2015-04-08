@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/statusLimbo"
+        android:gravity="center_horizontal"
         android:id="@+id/status"
         android:layout_gravity="center_horizontal" />
 
