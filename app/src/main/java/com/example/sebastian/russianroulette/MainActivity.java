@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         {
             statusImage.setImageResource(R.drawable.bang);
             status.setText(getString(R.string.statusDead));
-            status.setBackgroundColor(Color.RED);
+            status.setTextColor(Color.RED);
             deathCount+=1;
             deathCountStr = deathCount.toString();
             deathCounter.setText(getString(R.string.deathCounter).replaceAll("\\d", deathCountStr));
@@ -54,12 +54,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             status.setText(getString(R.string.statusAlive));
             if (colorChanger == true)
             {
-                status.setBackgroundColor(Color.BLUE);
+                status.setTextColor(Color.BLUE);
                 colorChanger = false;
             }
             else if (colorChanger == false)
             {
-                status.setBackgroundColor(Color.GREEN);
+                status.setTextColor(Color.GREEN);
                 colorChanger = true;
             }
         }
